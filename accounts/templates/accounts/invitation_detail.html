@@ -1,0 +1,17 @@
+<!-- accounts/templates/accounts/invitation_detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation Detail</title>
+</head>
+<body>
+    <h1>Invitation for {{ invitation.groom_name }} and {{ invitation.bride_name }}</h1>
+    <p>Wedding Date: {{ invitation.wedding_date }}</p>
+    <p>Organizers: {{ invitation.organizers }}</p>
+    <p>Venue: {{ invitation.venue_name }}</p>
+    <p>Venue Address: {{ invitation.venue_address }}</p>
+    <!-- Additional fields can be added here -->
+</body>
+</html>
